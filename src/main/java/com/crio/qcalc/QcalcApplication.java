@@ -15,11 +15,23 @@ public class QcalcApplication {
         calc.add(Double.MAX_VALUE, 1.0);
 
 		calc.printResult();*/
-		StandardCalculator calc = new StandardCalculator();
+		/*StandardCalculator calc = new StandardCalculator();
+        calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
+		calc.printResult();*/
+		
 
-calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
+		
+		LogicCalculator calc = new LogicCalculator();
+        calc.AND(8, 6);
+		calc.printResult();
+		
+		/*LogicCalculator calc = new LogicCalculator();
+        calc.OR(8,6);
+        calc.printResult();*/
 
-calc.printResult();
+
+
+
 
 
 
